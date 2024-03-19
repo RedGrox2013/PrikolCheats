@@ -1,0 +1,4 @@
+<mod displayName="PrikolCheats" unique="PrikolCheats" description="Мод для Spore, добавляющий новые консольные команды." installerSystemVersion="1.0.1.0" hasCustomInstaller="false" dllsBuild="2.5.20">
+	<prerequisite>PrikolCheats.dll</prerequisite>
+	<prerequisite game="GalacticAdventures">PrikolCheats.package</prerequisite>
+</mod>
