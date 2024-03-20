@@ -141,6 +141,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="PrikolCheatManager.cpp" />
     <ClCompile Include="PrikolCheatsHelp.cpp" />
     <ClCompile Include="PrikolTestCheat.cpp">

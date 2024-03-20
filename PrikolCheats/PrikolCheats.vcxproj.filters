@@ -88,6 +88,9 @@
     <ClCompile Include="GetAnimalCheat.cpp">
       <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>PrikolCheats</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SdkPathConfig.props" />
