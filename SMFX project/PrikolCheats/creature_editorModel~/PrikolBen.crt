@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><sporemodel>
+  <formatversion>18</formatversion>
+  <properties>
+    <modeltype>0x9ea3031a</modeltype>
+    <skineffect1>0x71357e68</skineffect1>
+    <skineffect2>0x48b8e211</skineffect2>
+    <skineffect3>0x27dee652</skineffect3>
+    <skineffectseed1>1234</skineffectseed1>
+    <skineffectseed2>1234</skineffectseed2>
+    <skineffectseed3>1234</skineffectseed3>
+    <skincolor1>0.694117,0.482352,0.0352941</skincolor1>
+    <skincolor2>0.443134,0.309803,0.0235291</skincolor2>
+    <skincolor3>0.443134,0.309803,0.0235291</skincolor3>
+    <zcorpscore>1</zcorpscore>
+  </properties>
+  <blocks count="27">
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.903695</scale>
+        <position>0,0.310265,0.573157</position>
+        <triangledirection>0,0.216112,-0.976368</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.216112,-0.976368</row1>
+          <row2>0,0.976368,0.216112</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>6</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.802926</scale>
+        <position>0,0.286443,0.682326</position>
+        <triangledirection>0,0.210292,-0.977637</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.210292,-0.977637</row1>
+          <row2>0,0.977637,0.210292</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>0</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.618444</scale>
+        <position>0,0.264299,0.792083</position>
+        <triangledirection>0,0.185174,-0.982704</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.185174,-0.982704</row1>
+          <row2>0,0.982704,0.185174</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>1</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.576159</scale>
+        <position>0,0.245276,0.902494</position>
+        <triangledirection>0,0.154399,-0.988008</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.154399,-0.988008</row1>
+          <row2>0,0.988008,0.154399</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>2</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.591135</scale>
+        <position>0,0.230229,1.013622</position>
+        <triangledirection>0,0.113890,-0.993493</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.113890,-0.993493</row1>
+          <row2>0,0.993493,0.113890</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="3">
+        <childid>20</childid>
+        <childid>18</childid>
+        <childid>3</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.587716</scale>
+        <position>0,0.217997,1.124727</position>
+        <triangledirection>0,0.104974,-0.994475</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.104974,-0.994475</row1>
+          <row2>0,0.994475,0.104974</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="2">
+        <childid>11</childid>
+        <childid>4</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.876262</scale>
+        <position>0,0.318994,0.466206</position>
+        <triangledirection>0,-0.0548825,-0.998492</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,-0.0548825,-0.998492</row1>
+          <row2>0,0.998492,-0.0548825</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="2">
+        <childid>9</childid>
+        <childid>7</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xdec3c22a</blockid>
+      <transform>
+        <limbtype>1</limbtype>
+        <musclescale>0.474999</musclescale>
+        <basemusclescale>0.5</basemusclescale>
+        <scale>1</scale>
+        <position>0.126529,0.149579,0.333763</position>
+        <triangledirection>-0.269997,-0.318117,0.908791</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.575274,-0.703568,-0.417191</row0>
+          <row1>-0.269997,-0.318117,0.908791</row1>
+          <row2>-0.772112,0.635446,-0.00695585</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>8</childid>
+      </childlist>
+      <symmetric>9</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0424720</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x33fccc91</blockid>
+      <transform>
+        <limbtype>1</limbtype>
+        <musclescale>0.174998</musclescale>
+        <basemusclescale>1.100000</basemusclescale>
+        <scale>1</scale>
+        <position>0.168687,0.199248,0.191862</position>
+        <triangledirection>0.0371743,-0.532000,0.845926</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.575272,-0.703569,-0.417192</row0>
+          <row1>0.0371743,-0.532000,0.845926</row1>
+          <row2>-0.817116,0.471129,0.332201</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <childlist count="1">
+        <childid>17</childid>
+      </childlist>
+      <symmetric>10</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0181269</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xdec3c22a</blockid>
+      <transform>
+        <limbtype>1</limbtype>
+        <musclescale>0.474999</musclescale>
+        <basemusclescale>0.550000</basemusclescale>
+        <scale>1</scale>
+        <position>-0.126529,0.149579,0.333763</position>
+        <triangledirection>0.269997,-0.318117,0.908791</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.575275,0.703568,0.417191</row0>
+          <row1>0.269997,-0.318117,0.908791</row1>
+          <row2>0.772112,0.635446,-0.00695560</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>10</childid>
+      </childlist>
+      <symmetric>7</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0424720</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x33fccc91</blockid>
+      <transform>
+        <limbtype>1</limbtype>
+        <musclescale>0.174998</musclescale>
+        <basemusclescale>1.100000</basemusclescale>
+        <scale>1</scale>
+        <position>-0.168687,0.199248,0.191862</position>
+        <triangledirection>-0.0371743,-0.532000,0.845926</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.575272,0.703569,0.417192</row0>
+          <row1>-0.0371743,-0.532000,0.845926</row1>
+          <row2>0.817116,0.471129,0.332201</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <childlist count="1">
+        <childid>16</childid>
+      </childlist>
+      <symmetric>8</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0181269</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x050d2812</blockid>
+      <transform>
+        <scale>1.568312</scale>
+        <position>0,-0.00662955,1.116250</position>
+        <triangledirection>0,0.987544,0.157336</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.994236,0.107202</row1>
+          <row2>0,-0.107202,0.994236</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>1,0,0</userorientation_row0>
+          <userorientation_row1>0,0.998720,0.0505628</userorientation_row1>
+          <userorientation_row2>0,-0.0505628,0.998720</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>24</childid>
+      </childlist>
+      <handles count="3">
+        <weight channel="0xd02751de">0.5</weight>
+        <weight channel="0x2e6521f4">0.389337</weight>
+        <weight channel="0x7cc96c02">0.5</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.568191</scale>
+        <position>0,0.200428,1.233468</position>
+        <triangledirection>0,0.213538,-0.976933</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.213538,-0.976933</row1>
+          <row2>0,0.976933,0.213538</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>5</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xd05c53a3</blockid>
+      <transform>
+        <scale>0.625482</scale>
+        <position>0,0.179345,1.343734</position>
+        <triangledirection>0,0.161926,-0.986802</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.161926,-0.986802</row1>
+          <row2>0,0.986802,0.161926</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="5">
+        <childid>26</childid>
+        <childid>25</childid>
+        <childid>15</childid>
+        <childid>14</childid>
+        <childid>12</childid>
+      </childlist>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xbe830bde</blockid>
+      <transform>
+        <scale>0.591552</scale>
+        <position>-0.0752496,-0.0314661,1.312609</position>
+        <triangledirection>0.0915994,0.950316,-0.297491</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.830265,-0.557366,0</row0>
+          <row1>0.554040,0.825311,0.109083</row1>
+          <row2>-0.0607997,-0.0905687,0.994032</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.887700,0.445355,-0.116778</userorientation_row0>
+          <userorientation_row1>-0.453621,0.802604,-0.387353</userorientation_row1>
+          <userorientation_row2>-0.0787825,0.396833,0.914503</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <symmetric>15</symmetric>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xec3b4b78</blockid>
+      <transform>
+        <scale>0.591552</scale>
+        <position>0.0752496,-0.0314661,1.312609</position>
+        <triangledirection>-0.0915994,0.950316,-0.297491</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.830265,0.557366,0</row0>
+          <row1>-0.554040,0.825311,0.109083</row1>
+          <row2>0.0607997,-0.0905687,0.994032</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.887700,-0.445355,0.116778</userorientation_row0>
+          <userorientation_row1>0.453621,0.802604,-0.387353</userorientation_row1>
+          <userorientation_row2>0.0787825,0.396833,0.914503</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <symmetric>14</symmetric>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xe43d7f45</blockid>
+      <transform>
+        <basemusclescale>1.062286</basemusclescale>
+        <scale>1</scale>
+        <position>-0.165389,0.246465,0.116785</position>
+        <triangledirection>0,1,0</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,1,0</row1>
+          <row2>0,0,1</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <symmetric>17</symmetric>
+      <handles count="3">
+        <weight channel="0x2e6521f4">0.305712</weight>
+        <weight channel="0xd02751de">0</weight>
+        <weight channel="0x7cc96c02">0.121802</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x08504963</blockid>
+      <transform>
+        <basemusclescale>1.062286</basemusclescale>
+        <scale>1</scale>
+        <position>0.165389,0.246465,0.116785</position>
+        <triangledirection>0,1,0</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,1,0</row1>
+          <row2>0,0,1</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <symmetric>16</symmetric>
+      <handles count="3">
+        <weight channel="0x2e6521f4">0.305712</weight>
+        <weight channel="0xd02751de">0</weight>
+        <weight channel="0x7cc96c02">0.121802</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x2051ae2d</blockid>
+      <transform>
+        <limbtype>0</limbtype>
+        <musclescale>0.75</musclescale>
+        <basemusclescale>0.550000</basemusclescale>
+        <scale>1</scale>
+        <position>-0.127540,0.159185,0.915416</position>
+        <triangledirection>0.778237,-0.128081,0.614768</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.603911,0.421027,-0.676775</row0>
+          <row1>0.778237,-0.128081,0.614768</row1>
+          <row2>0.172151,-0.897958,-0.405009</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>19</childid>
+      </childlist>
+      <symmetric>20</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0836219</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x2051ae2d</blockid>
+      <transform>
+        <limbtype>0</limbtype>
+        <musclescale>0.100000</musclescale>
+        <basemusclescale>0.699996</basemusclescale>
+        <scale>1</scale>
+        <position>-0.347737,0.195425,0.741472</position>
+        <triangledirection>0.206505,0.737453,0.643052</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.603912,0.421029,-0.676774</row0>
+          <row1>0.206505,0.737453,0.643052</row1>
+          <row2>0.769833,-0.528105,0.358412</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <childlist count="1">
+        <childid>22</childid>
+      </childlist>
+      <symmetric>21</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0771187</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x2051ae2d</blockid>
+      <transform>
+        <limbtype>0</limbtype>
+        <musclescale>0.75</musclescale>
+        <basemusclescale>0.550000</basemusclescale>
+        <scale>1</scale>
+        <position>0.127540,0.159185,0.915416</position>
+        <triangledirection>-0.778237,-0.128081,0.614768</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.603911,-0.421027,0.676775</row0>
+          <row1>-0.778237,-0.128081,0.614768</row1>
+          <row2>-0.172151,-0.897958,-0.405009</row2>
+        </orientation>
+      </transform>
+      <snapped>false</snapped>
+      <childlist count="1">
+        <childid>21</childid>
+      </childlist>
+      <symmetric>18</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0836219</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x2051ae2d</blockid>
+      <transform>
+        <limbtype>0</limbtype>
+        <musclescale>0.100000</musclescale>
+        <basemusclescale>0.699996</basemusclescale>
+        <scale>1</scale>
+        <position>0.347737,0.195425,0.741472</position>
+        <triangledirection>-0.206505,0.737453,0.643052</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.603912,-0.421029,0.676774</row0>
+          <row1>-0.206505,0.737453,0.643052</row1>
+          <row2>-0.769833,-0.528105,0.358412</row2>
+        </orientation>
+      </transform>
+      <snapped>true</snapped>
+      <childlist count="1">
+        <childid>23</childid>
+      </childlist>
+      <symmetric>19</symmetric>
+      <handles count="1">
+        <weight channel="0xf320ba37">0.0771187</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x6d663115</blockid>
+      <transform>
+        <basemusclescale>0.882851</basemusclescale>
+        <scale>1</scale>
+        <position>-0.402182,0.000989910,0.571925</position>
+        <triangledirection>0.232936,0.676032,0.699082</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.312272,-0.672522,0.670969</row0>
+          <row1>0.206505,0.737453,0.643052</row1>
+          <row2>-0.927276,-0.0622478,0.369165</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.993768,-0.0869434,0.0697561</userorientation_row0>
+          <userorientation_row1>0.0871556,0.996194,0</userorientation_row1>
+          <userorientation_row2>-0.0694909,0.00607964,0.997564</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>true</snapped>
+      <symmetric>23</symmetric>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x2a38ba33</blockid>
+      <transform>
+        <basemusclescale>0.882851</basemusclescale>
+        <scale>1</scale>
+        <position>0.402182,0.000989910,0.571925</position>
+        <triangledirection>-0.232936,0.676032,0.699082</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>0.312272,0.672522,-0.670969</row0>
+          <row1>-0.206505,0.737453,0.643052</row1>
+          <row2>0.927276,-0.0622478,0.369165</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.993768,0.0869434,-0.0697561</userorientation_row0>
+          <userorientation_row1>-0.0871556,0.996194,0</userorientation_row1>
+          <userorientation_row2>0.0694909,0.00607964,0.997564</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>true</snapped>
+      <symmetric>22</symmetric>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x06fa3d44</blockid>
+      <transform>
+        <scale>1.349856</scale>
+        <position>0,-0.237251,1.178616</position>
+        <triangledirection>0,0.962629,-0.270818</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>1,0,0</row0>
+          <row1>0,0.946575,-0.322482</row1>
+          <row2>0,0.322482,0.946575</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>1,0,0</userorientation_row0>
+          <userorientation_row1>0,0.998536,0.0540807</userorientation_row1>
+          <userorientation_row2>0,-0.0540807,0.998536</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <handles count="1">
+        <weight channel="0x2e6521f4">1</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0x865e961b</blockid>
+      <transform>
+        <scale>1</scale>
+        <position>-0.105783,0.118073,1.400745</position>
+        <triangledirection>0.909682,0.402336,-0.102957</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.333604,-0.942712,5.36441e-7</row0>
+          <row1>0.789537,-0.279400,-0.546409</row1>
+          <row2>0.515106,-0.182284,0.837517</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.674848,0.733542,-0.0805812</userorientation_row0>
+          <userorientation_row1>-0.682762,0.662072,0.309016</userorientation_row1>
+          <userorientation_row2>0.280027,-0.153521,0.947636</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <symmetric>26</symmetric>
+      <handles count="1">
+        <weight channel="0x2e6521f4">0.786417</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+    <blockref>
+      <blockid>0x40626000, 0xa245953d</blockid>
+      <transform>
+        <scale>1</scale>
+        <position>0.105783,0.118073,1.400745</position>
+        <triangledirection>-0.909682,0.402336,-0.102957</triangledirection>
+        <trianglepickorigin>0,0,0</trianglepickorigin>
+        <orientation>
+          <row0>-0.333604,0.942712,-5.36441e-7</row0>
+          <row1>-0.789537,-0.279400,-0.546409</row1>
+          <row2>-0.515106,-0.182284,0.837517</row2>
+        </orientation>
+        <userorientation>
+          <userorientation_row0>0.674848,-0.733542,0.0805813</userorientation_row0>
+          <userorientation_row1>0.682762,0.662072,0.309016</userorientation_row1>
+          <userorientation_row2>-0.280027,-0.153521,0.947636</userorientation_row2>
+        </userorientation>
+      </transform>
+      <snapped>false</snapped>
+      <symmetric>25</symmetric>
+      <handles count="1">
+        <weight channel="0x2e6521f4">0.786417</weight>
+      </handles>
+      <isasymmetric>false</isasymmetric>
+    </blockref>
+  </blocks></sporemodel>

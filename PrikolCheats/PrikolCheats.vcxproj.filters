@@ -50,10 +50,10 @@
     <ClInclude Include="AddCargoSlotCheat.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="GetAnimalCheat.h">
-      <Filter>PrikolCheats</Filter>
-    </ClInclude>
     <ClInclude Include="CheatsIncludes.h">
+      <Filter>PrikolCheats\CheatsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAnimalCheat.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,7 +86,7 @@
       <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
     <ClCompile Include="GetAnimalCheat.cpp">
-      <Filter>PrikolCheats</Filter>
+      <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

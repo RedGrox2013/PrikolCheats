@@ -2,7 +2,7 @@
 #include "GetAnimalCheat.h"
 #include "Helpers.h"
 
-GetAnimalCheat::GetAnimalCheat()
+GetAnimalCheat::GetAnimalCheat() : _isFirstCreature(true)
 {
 }
 
@@ -33,6 +33,12 @@ void GetAnimalCheat::ParseLine(const ArgScript::Line& line)
 			isSentient = false;
 		}
 	}
+	else if (line.HasFlag("carn") && !line.HasFlag("herb"))
+		species.instanceID = id("PrikolBen");
+	else if (!line.HasFlag("carn") && line.HasFlag("herb")) {
+		species.instanceID = _isFirstCreature ? 0x0761F7B6 : id("PrikolHitler");
+		_isFirstCreature = !_isFirstCreature;
+	}
 
 	auto inventory = SimulatorSpaceGame.GetPlayerInventory();
 	cAnimalCargoInfoPtr animalCargo;
@@ -46,6 +52,6 @@ const char* GetAnimalCheat::GetDescription(ArgScript::DescriptionMode mode) cons
 		return "This cheat gives the creature to the cargo hold of the ship.";
 	}
 	else {
-		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship.";
+		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship. To indicate diet, use the flags -carn or -herb.";
 	}
 }

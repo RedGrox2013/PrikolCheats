@@ -1,0 +1,20 @@
+metadataVersion 13
+
+assetID 666 # 501098995831
+assetKey creature_editorModel~!PrikolBen.crt
+parentAssetKey 0xFFFFFFFF!0xFFFFFFFF.0xFFFFFFFF
+parentAssetID -1
+originalParentAssetID -1
+timeCreated 0 # 63782443267
+timeDownloaded 0 # 63782710743
+authorID 501087726588
+authorName "RedGroxFakePNG"
+authorNameLocale PrikolCheatsContent!0x00000005
+name "Ben"
+nameLocale PrikolCheatsContent!0x00000004
+description ""
+descriptionLocale PrikolCheatsContent!0x00000006
+authors "tag:spore.com,2006:ImportedContent" "tag:spore.com,2006:user/501087726588"
+tags
+isShareable false
+consequenceTraits

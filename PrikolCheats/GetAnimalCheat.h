@@ -5,6 +5,8 @@
 class GetAnimalCheat 
 	: public ArgScript::ICommand
 {
+private:
+	bool _isFirstCreature;
 public:
 	GetAnimalCheat();
 	~GetAnimalCheat();

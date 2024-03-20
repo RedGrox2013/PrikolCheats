@@ -1,0 +1,20 @@
+metadataVersion 13
+
+assetID 228
+assetKey creature_editorModel~!PrikolHitler.crt
+parentAssetKey 0xFFFFFFFF!0xFFFFFFFF.0xFFFFFFFF
+parentAssetID -1
+originalParentAssetID -1
+timeCreated 0 # 63846634273
+timeDownloaded 0 # 63846634847
+authorID 501074940839
+authorName "RedGrox"
+authorNameLocale PrikolCheatsContent!0x00000008
+name "Травоядный чудик"
+nameLocale PrikolCheatsContent!0x00000007
+description "Эксклюзивно для мода PrikolCheats."
+descriptionLocale PrikolCheatsContent!0x00000009
+authors "tag:spore.com,2006:ImportedContent"
+tags
+isShareable false
+consequenceTraits
