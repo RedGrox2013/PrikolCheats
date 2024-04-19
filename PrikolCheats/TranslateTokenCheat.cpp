@@ -45,10 +45,10 @@ const char* TranslateTokenCheat::GetDescription(ArgScript::DescriptionMode mode)
 		return "This cheat translates the token using cStringDetokenizer.";
 	}
 	else {
-		return "This cheat translates the token using cStringDetokenizer."
-			"In locale files, tokens are surrounded with ~ characters"
-			"Usage example: translateToken player_creature_name"
-			"You can also translate multiple tokens at the same time."
+		return "This cheat translates the token using cStringDetokenizer.\n"
+			"In locale files, tokens are surrounded with ~ characters.\n"
+			"Usage example: translateToken player_creature_name.\n"
+			"You can also translate multiple tokens at the same time.\n"
 			"For example: translateToken player_creature_name ep1_captain_full_name";
 	}
 }
