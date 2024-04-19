@@ -55,9 +55,9 @@ const char* GetAnimalCheat::GetDescription(ArgScript::DescriptionMode mode) cons
 		return "This cheat gives the creature to the cargo hold of the ship.";
 	}
 	else {
-		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship."
-			"To indicate diet, use the flags -carn or -herb."
-			"Use the -sporepedia flag to select a creature from the Sporepedia.";
+		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship.\n"
+			"To indicate diet, use the flags -carn or -herb.\n"
+			"Use the -sporepedia flag to select a creature from the Sporepedia.\n";
 	}
 }
 
