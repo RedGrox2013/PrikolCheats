@@ -2,8 +2,9 @@
 #include "GetAnimalCheat.h"
 #include "Helpers.h"
 
-GetAnimalCheat::GetAnimalCheat() : _isFirstCreature(true)
+GetAnimalCheat::GetAnimalCheat() : _isFirstCreature(true), _shopperRequest(this)
 {
+	_shopperRequest.shopperID = id("CreatureShopper");
 }
 
 
@@ -16,6 +17,11 @@ void GetAnimalCheat::ParseLine(const ArgScript::Line& line)
 {
 	if (!Simulator::IsSpaceGame())
 		return;
+
+	if (line.HasFlag("sporepedia")) {
+		Sporepedia::ShopperRequest::Show(_shopperRequest);
+		return;
+	}
 
 	const int ARGS_COUNT = 3;
 	auto args = line.GetOption("prop", ARGS_COUNT);
@@ -40,10 +46,7 @@ void GetAnimalCheat::ParseLine(const ArgScript::Line& line)
 		_isFirstCreature = !_isFirstCreature;
 	}
 
-	auto inventory = SimulatorSpaceGame.GetPlayerInventory();
-	cAnimalCargoInfoPtr animalCargo;
-	AnimalSpeciesManager.CreateAnimalItem(animalCargo, species, count, isSentient);
-	inventory->AddItem(animalCargo.get());
+	AddAnimal(species, count, isSentient);
 }
 
 const char* GetAnimalCheat::GetDescription(ArgScript::DescriptionMode mode) const
@@ -52,6 +55,21 @@ const char* GetAnimalCheat::GetDescription(ArgScript::DescriptionMode mode) cons
 		return "This cheat gives the creature to the cargo hold of the ship.";
 	}
 	else {
-		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship. To indicate diet, use the flags -carn or -herb.";
+		return "getAnimal -prop <id> <count> <isSentient>: this cheat gives the creature to the cargo hold of the ship."
+			"To indicate diet, use the flags -carn or -herb."
+			"Use the -sporepedia flag to select a creature from the Sporepedia.";
 	}
+}
+
+void GetAnimalCheat::OnShopperAccept(const ResourceKey& selection)
+{
+	AddAnimal(selection, 1, false);
+}
+
+void GetAnimalCheat::AddAnimal(const ResourceKey& key, int count, bool isSentient) const
+{
+	auto inventory = SimulatorSpaceGame.GetPlayerInventory();
+	cAnimalCargoInfoPtr animalCargo;
+	AnimalSpeciesManager.CreateAnimalItem(animalCargo, key, count, isSentient);
+	inventory->AddItem(animalCargo.get());
 }
