@@ -56,6 +56,9 @@
     <ClInclude Include="GetAnimalCheat.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
+    <ClInclude Include="TranslateTokenCheat.h">
+      <Filter>PrikolCheats\CheatsHeaders</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -90,6 +93,9 @@
     </ClCompile>
     <ClCompile Include="Helpers.cpp">
       <Filter>PrikolCheats</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateTokenCheat.cpp">
+      <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
