@@ -7,3 +7,4 @@
 #include "AddCargoSlotCheat.h"
 #include "GetAnimalCheat.h"
 #include "TranslateTokenCheat.h"
+#include "SetCreatureCheat.h"

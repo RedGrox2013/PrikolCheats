@@ -56,6 +56,9 @@
     <ClInclude Include="TranslateTokenCheat.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
+    <ClInclude Include="SetCreatureCheat.h">
+      <Filter>PrikolCheats\CheatsHeaders</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -89,6 +92,9 @@
       <Filter>PrikolCheats</Filter>
     </ClCompile>
     <ClCompile Include="TranslateTokenCheat.cpp">
+      <Filter>PrikolCheats\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCreatureCheat.cpp">
       <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
   </ItemGroup>

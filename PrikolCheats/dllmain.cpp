@@ -11,6 +11,7 @@ void Initialize()
 	PrikolCheatManager::AddCheat("addCargoSlot", new AddCargoSlotCheat(), true);
 	PrikolCheatManager::AddCheat("getAnimal", new GetAnimalCheat(), true);
 	PrikolCheatManager::AddCheat("translateToken", new TranslateTokenCheat());
+	PrikolCheatManager::AddCheat("setCreature", new SetCreatureCheat(), true);
 }
 
 void Dispose()
