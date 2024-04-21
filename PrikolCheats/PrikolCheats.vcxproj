@@ -114,10 +114,6 @@
     <ClInclude Include="Helpers.h" />
     <ClInclude Include="PrikolCheatManager.h" />
     <ClInclude Include="PrikolCheatsHelp.h" />
-    <ClInclude Include="PrikolTestCheat.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="resource.h" />
     <ClInclude Include="SpawnGroxCheat.h">
       <SubType>
@@ -148,10 +144,6 @@
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="PrikolCheatManager.cpp" />
     <ClCompile Include="PrikolCheatsHelp.cpp" />
-    <ClCompile Include="PrikolTestCheat.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="SpawnGroxCheat.cpp">
       <SubType>
       </SubType>

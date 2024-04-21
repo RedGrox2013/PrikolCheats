@@ -38,9 +38,6 @@
     <ClInclude Include="PrikolCheatManager.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="PrikolTestCheat.h">
-      <Filter>PrikolCheats\CheatsHeaders</Filter>
-    </ClInclude>
     <ClInclude Include="SpawnGroxCheat.h">
       <Filter>PrikolCheats\CheatsHeaders</Filter>
     </ClInclude>
@@ -74,9 +71,6 @@
       <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
     <ClCompile Include="PrikolCheatManager.cpp">
-      <Filter>PrikolCheats\Cheats</Filter>
-    </ClCompile>
-    <ClCompile Include="PrikolTestCheat.cpp">
       <Filter>PrikolCheats\Cheats</Filter>
     </ClCompile>
     <ClCompile Include="SpawnGroxCheat.cpp">

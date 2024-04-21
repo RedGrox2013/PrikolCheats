@@ -11,9 +11,6 @@ void Initialize()
 	PrikolCheatManager::AddCheat("addCargoSlot", new AddCargoSlotCheat(), true);
 	PrikolCheatManager::AddCheat("getAnimal", new GetAnimalCheat(), true);
 	PrikolCheatManager::AddCheat("translateToken", new TranslateTokenCheat());
-
-	// For tests
-	CheatManager.AddCheat("prikolTest", new PrikolTestCheat());
 }
 
 void Dispose()

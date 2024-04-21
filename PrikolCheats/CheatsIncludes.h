@@ -2,7 +2,6 @@
 #include "PrikolCheatManager.h"
 #include "PrikolCheatsHelp.h"
 #include "TeleportCheat.h"
-#include "PrikolTestCheat.h"
 #include "SpawnGroxCheat.h"
 #include "GetToolCheat.h"
 #include "AddCargoSlotCheat.h"
