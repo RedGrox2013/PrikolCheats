@@ -36,6 +36,8 @@ void SetCreatureCheat::OnShopperAccept(const ResourceKey& selection)
 
 	auto species = SpeciesManager.GetSpeciesProfile(selection);
 	playerEmpire->SetSpeciesProfile(species);
+	playerEmpire->mCultureSet.SetCreation(ModelTypes::kCreature, selection);
+	playerEmpire->UpdateAndGetColor();
 	if (Simulator::IsCreatureGame()) {
 		auto avatar = GameNounManager.GetAvatar();
 		avatar->mpSpeciesProfile = species;
